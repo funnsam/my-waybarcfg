@@ -2,6 +2,9 @@ window#waybar {
     background: rgba(21, 52, 72, 0.35);
 
     color: white;
+
+    font-family: "CaskaydiaCove NFP";
+    font-weight: 400;
 }
 
 tooltip {
@@ -13,10 +16,10 @@ tooltip label {
     color: white;
 }
 
-#workspaces button, #clock {
+#workspaces button, #cpu, #memory, #battery, #clock {
     transition: all 0.25s;
     outline: none;
-    padding: 0 5px;
+    padding: 0 10px;
     background: rgba(60, 91, 111, 0.5);
     color: white;
     border: none;
@@ -39,8 +42,8 @@ tooltip label {
     background-color: rgb(118, 171, 174);
 }
 
-#mode, #clock {
-    padding: 0 10px;
+#workspaces button {
+    padding: 0 5px;
 }
 
 #mode {
