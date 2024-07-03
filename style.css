@@ -16,7 +16,7 @@ tooltip label {
     color: white;
 }
 
-#workspaces button, #cpu, #memory, #battery, #clock {
+#network, #wireplumber, #workspaces button, #temperature, #cpu, #memory, #battery, #clock {
     transition: all 0.25s;
     outline: none;
     padding: 0 10px;
@@ -28,7 +28,7 @@ tooltip label {
     border-radius: 0;
 }
 
-#workspaces button:hover, #clock:hover {
+#wireplumber:hover, #workspaces button:hover, #clock:hover {
     box-shadow: inherit;
     text-shadow: inherit;
 
